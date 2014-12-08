@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B55F6E71A35589C00C59693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B55F6E61A35589C00C59693 /* Foundation.framework */; };
+		4B55F6E91A35589C00C59693 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B55F6E81A35589C00C59693 /* CoreGraphics.framework */; };
+		4B55F6EB1A35589C00C59693 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B55F6EA1A35589C00C59693 /* UIKit.framework */; };
+		4B55F6F11A35589C00C59693 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B55F6EF1A35589C00C59693 /* InfoPlist.strings */; };
+		4B55F6F31A35589C00C59693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55F6F21A35589C00C59693 /* main.m */; };
+		4B55F6F71A35589C00C59693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55F6F61A35589C00C59693 /* AppDelegate.m */; };
+		4B55F6FA1A35589C00C59693 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B55F6F81A35589C00C59693 /* Main_iPhone.storyboard */; };
+		4B55F6FD1A35589C00C59693 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B55F6FB1A35589C00C59693 /* Main_iPad.storyboard */; };
+		4B55F7001A35589C00C59693 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55F6FF1A35589C00C59693 /* MasterViewController.m */; };
+		4B55F7031A35589C00C59693 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55F7021A35589C00C59693 /* DetailViewController.m */; };
+		4B55F7051A35589C00C59693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B55F7041A35589C00C59693 /* Images.xcassets */; };
+		4B55F70C1A35589C00C59693 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B55F70B1A35589C00C59693 /* XCTest.framework */; };
+		4B55F70D1A35589C00C59693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B55F6E61A35589C00C59693 /* Foundation.framework */; };
+		4B55F70E1A35589C00C59693 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B55F6EA1A35589C00C59693 /* UIKit.framework */; };
+		4B55F7161A35589C00C59693 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B55F7141A35589C00C59693 /* InfoPlist.strings */; };
+		4B55F7181A35589C00C59693 /* iOS_RudraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55F7171A35589C00C59693 /* iOS_RudraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B55F70F1A35589C00C59693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B55F6DB1A35589C00C59693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B55F6E21A35589C00C59693;
+			remoteInfo = iOS_Rudra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B55F6E31A35589C00C59693 /* iOS_Rudra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Rudra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B55F6E61A35589C00C59693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B55F6E81A35589C00C59693 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B55F6EA1A35589C00C59693 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B55F6EE1A35589C00C59693 /* iOS_Rudra-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_Rudra-Info.plist"; sourceTree = "<group>"; };
+		4B55F6F01A35589C00C59693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B55F6F21A35589C00C59693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B55F6F41A35589C00C59693 /* iOS_Rudra-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Rudra-Prefix.pch"; sourceTree = "<group>"; };
+		4B55F6F51A35589C00C59693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B55F6F61A35589C00C59693 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B55F6F91A35589C00C59693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4B55F6FC1A35589C00C59693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4B55F6FE1A35589C00C59693 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4B55F6FF1A35589C00C59693 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4B55F7011A35589C00C59693 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4B55F7021A35589C00C59693 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4B55F7041A35589C00C59693 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B55F70A1A35589C00C59693 /* iOS_RudraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_RudraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B55F70B1A35589C00C59693 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B55F7131A35589C00C59693 /* iOS_RudraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_RudraTests-Info.plist"; sourceTree = "<group>"; };
+		4B55F7151A35589C00C59693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B55F7171A35589C00C59693 /* iOS_RudraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_RudraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B55F6E01A35589C00C59693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B55F6E91A35589C00C59693 /* CoreGraphics.framework in Frameworks */,
+				4B55F6EB1A35589C00C59693 /* UIKit.framework in Frameworks */,
+				4B55F6E71A35589C00C59693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B55F7071A35589C00C59693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B55F70C1A35589C00C59693 /* XCTest.framework in Frameworks */,
+				4B55F70E1A35589C00C59693 /* UIKit.framework in Frameworks */,
+				4B55F70D1A35589C00C59693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B55F6DA1A35589C00C59693 = {
+			isa = PBXGroup;
+			children = (
+				4B55F6EC1A35589C00C59693 /* iOS_Rudra */,
+				4B55F7111A35589C00C59693 /* iOS_RudraTests */,
+				4B55F6E51A35589C00C59693 /* Frameworks */,
+				4B55F6E41A35589C00C59693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B55F6E41A35589C00C59693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B55F6E31A35589C00C59693 /* iOS_Rudra.app */,
+				4B55F70A1A35589C00C59693 /* iOS_RudraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B55F6E51A35589C00C59693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B55F6E61A35589C00C59693 /* Foundation.framework */,
+				4B55F6E81A35589C00C59693 /* CoreGraphics.framework */,
+				4B55F6EA1A35589C00C59693 /* UIKit.framework */,
+				4B55F70B1A35589C00C59693 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B55F6EC1A35589C00C59693 /* iOS_Rudra */ = {
+			isa = PBXGroup;
+			children = (
+				4B55F6F51A35589C00C59693 /* AppDelegate.h */,
+				4B55F6F61A35589C00C59693 /* AppDelegate.m */,
+				4B55F6F81A35589C00C59693 /* Main_iPhone.storyboard */,
+				4B55F6FB1A35589C00C59693 /* Main_iPad.storyboard */,
+				4B55F6FE1A35589C00C59693 /* MasterViewController.h */,
+				4B55F6FF1A35589C00C59693 /* MasterViewController.m */,
+				4B55F7011A35589C00C59693 /* DetailViewController.h */,
+				4B55F7021A35589C00C59693 /* DetailViewController.m */,
+				4B55F7041A35589C00C59693 /* Images.xcassets */,
+				4B55F6ED1A35589C00C59693 /* Supporting Files */,
+			);
+			path = iOS_Rudra;
+			sourceTree = "<group>";
+		};
+		4B55F6ED1A35589C00C59693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B55F6EE1A35589C00C59693 /* iOS_Rudra-Info.plist */,
+				4B55F6EF1A35589C00C59693 /* InfoPlist.strings */,
+				4B55F6F21A35589C00C59693 /* main.m */,
+				4B55F6F41A35589C00C59693 /* iOS_Rudra-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B55F7111A35589C00C59693 /* iOS_RudraTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B55F7171A35589C00C59693 /* iOS_RudraTests.m */,
+				4B55F7121A35589C00C59693 /* Supporting Files */,
+			);
+			path = iOS_RudraTests;
+			sourceTree = "<group>";
+		};
+		4B55F7121A35589C00C59693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B55F7131A35589C00C59693 /* iOS_RudraTests-Info.plist */,
+				4B55F7141A35589C00C59693 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B55F6E21A35589C00C59693 /* iOS_Rudra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B55F71B1A35589C00C59693 /* Build configuration list for PBXNativeTarget "iOS_Rudra" */;
+			buildPhases = (
+				4B55F6DF1A35589C00C59693 /* Sources */,
+				4B55F6E01A35589C00C59693 /* Frameworks */,
+				4B55F6E11A35589C00C59693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_Rudra;
+			productName = iOS_Rudra;
+			productReference = 4B55F6E31A35589C00C59693 /* iOS_Rudra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B55F7091A35589C00C59693 /* iOS_RudraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B55F71E1A35589C00C59693 /* Build configuration list for PBXNativeTarget "iOS_RudraTests" */;
+			buildPhases = (
+				4B55F7061A35589C00C59693 /* Sources */,
+				4B55F7071A35589C00C59693 /* Frameworks */,
+				4B55F7081A35589C00C59693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B55F7101A35589C00C59693 /* PBXTargetDependency */,
+			);
+			name = iOS_RudraTests;
+			productName = iOS_RudraTests;
+			productReference = 4B55F70A1A35589C00C59693 /* iOS_RudraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B55F6DB1A35589C00C59693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___STARPATHIT___";
+				TargetAttributes = {
+					4B55F7091A35589C00C59693 = {
+						TestTargetID = 4B55F6E21A35589C00C59693;
+					};
+				};
+			};
+			buildConfigurationList = 4B55F6DE1A35589C00C59693 /* Build configuration list for PBXProject "iOS_Rudra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B55F6DA1A35589C00C59693;
+			productRefGroup = 4B55F6E41A35589C00C59693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B55F6E21A35589C00C59693 /* iOS_Rudra */,
+				4B55F7091A35589C00C59693 /* iOS_RudraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B55F6E11A35589C00C59693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B55F6FD1A35589C00C59693 /* Main_iPad.storyboard in Resources */,
+				4B55F7051A35589C00C59693 /* Images.xcassets in Resources */,
+				4B55F6FA1A35589C00C59693 /* Main_iPhone.storyboard in Resources */,
+				4B55F6F11A35589C00C59693 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B55F7081A35589C00C59693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B55F7161A35589C00C59693 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B55F6DF1A35589C00C59693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B55F6F71A35589C00C59693 /* AppDelegate.m in Sources */,
+				4B55F7001A35589C00C59693 /* MasterViewController.m in Sources */,
+				4B55F6F31A35589C00C59693 /* main.m in Sources */,
+				4B55F7031A35589C00C59693 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B55F7061A35589C00C59693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B55F7181A35589C00C59693 /* iOS_RudraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B55F7101A35589C00C59693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B55F6E21A35589C00C59693 /* iOS_Rudra */;
+			targetProxy = 4B55F70F1A35589C00C59693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B55F6EF1A35589C00C59693 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B55F6F01A35589C00C59693 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B55F6F81A35589C00C59693 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B55F6F91A35589C00C59693 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4B55F6FB1A35589C00C59693 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B55F6FC1A35589C00C59693 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4B55F7141A35589C00C59693 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B55F7151A35589C00C59693 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B55F7191A35589C00C59693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B55F71A1A35589C00C59693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B55F71C1A35589C00C59693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_Rudra/iOS_Rudra-Prefix.pch";
+				INFOPLIST_FILE = "iOS_Rudra/iOS_Rudra-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B55F71D1A35589C00C59693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_Rudra/iOS_Rudra-Prefix.pch";
+				INFOPLIST_FILE = "iOS_Rudra/iOS_Rudra-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4B55F71F1A35589C00C59693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS_Rudra.app/iOS_Rudra";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_Rudra/iOS_Rudra-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS_RudraTests/iOS_RudraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4B55F7201A35589C00C59693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS_Rudra.app/iOS_Rudra";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_Rudra/iOS_Rudra-Prefix.pch";
+				INFOPLIST_FILE = "iOS_RudraTests/iOS_RudraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B55F6DE1A35589C00C59693 /* Build configuration list for PBXProject "iOS_Rudra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B55F7191A35589C00C59693 /* Debug */,
+				4B55F71A1A35589C00C59693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B55F71B1A35589C00C59693 /* Build configuration list for PBXNativeTarget "iOS_Rudra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B55F71C1A35589C00C59693 /* Debug */,
+				4B55F71D1A35589C00C59693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B55F71E1A35589C00C59693 /* Build configuration list for PBXNativeTarget "iOS_RudraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B55F71F1A35589C00C59693 /* Debug */,
+				4B55F7201A35589C00C59693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B55F6DB1A35589C00C59693 /* Project object */;
+}
